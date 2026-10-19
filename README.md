@@ -1,177 +1,151 @@
-# Hi, I'm Yakhrevan
+<!-- GitHub profile README · Dark / blue robotics theme -->
 
-**Junior Robotics Engineer | Mechatronics | ROS 2 | Embedded Systems | Autonomous Robots**
+<div align="center">
 
-I work at the intersection of robotics software, embedded firmware, electronics, and system integration. My interests include building robots that sense their environment, communicate reliably, and turn software logic into physical movement.
+# Yakhrevan
 
-**Always learning. Always building.**
+### Junior Robotics Engineer · Mechatronics · ROS 2 · Embedded Systems
 
-- **Current role:** Junior Robotics Engineer
-- **Engineering background:** Mechatronics
-- **Primary focus:** ROS 2, embedded systems, robot integration, sensors, and autonomous systems
-- **Languages:** C, C++, Python
-- **Embedded platforms:** STM32, ESP32
-- **Development environment:** Ubuntu/Linux, Git, CMake, colcon
+*Building across software, electronics, and physical robots.*
 
-**Explore:** [Live Portfolio](https://yakhrevan.github.io/Yakhrevan-Portfolio/) · [Portfolio Source](https://github.com/Yakhrevan/Yakhrevan-Portfolio) · [All Repositories](https://github.com/Yakhrevan?tab=repositories)
+<p>
+  <a href="https://yakhrevan.github.io/Yakhrevan-Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
+  <a href="https://github.com/Yakhrevan?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20Repositories-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" /></a>
+  <a href="https://github.com/Yakhrevan/Yakhrevan-Portfolio"><img src="https://img.shields.io/badge/Portfolio%20Source-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="Portfolio source" /></a>
+</p>
 
----
+<p>
+  <img src="https://img.shields.io/badge/Robotics-ROS%202-2563EB?style=flat-square&logo=ros&logoColor=white" alt="ROS 2" />
+  <img src="https://img.shields.io/badge/Embedded-STM32%20%7C%20ESP32-0F766E?style=flat-square" alt="Embedded systems" />
+  <img src="https://img.shields.io/badge/Programming-C%2B%2B%20%7C%20Python-1D4ED8?style=flat-square" alt="C++ and Python" />
+  <img src="https://img.shields.io/badge/Environment-Ubuntu%20%7C%20Linux-334155?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+</p>
 
-## Engineering Focus
-
-### Robotics software
-- ROS 2 development and architecture
-- Nodes, topics, services, actions, launch files, and package workflows
-- Robot integration and debugging across software and hardware
-- Exploring navigation, mapping, perception, and state estimation
-
-### Embedded systems and electronics
-- STM32 and ESP32 microcontroller development
-- C/C++ firmware and peripheral integration
-- CAN, UART, SPI, and I²C communication
-- Sensor integration, telemetry, and hardware–software interfaces
-- Motor-control and robot-platform integration
-
-### Simulation, visualization, and development tools
-- Ubuntu 22.04 and ROS 2 Humble
-- RViz, Gazebo, colcon, CMake, Git
-- React, TypeScript, Vite, Three.js, and React Three Fiber for engineering interfaces and interactive visualization
-
-I focus on understanding how each layer behaves—from the application and communication interfaces to the embedded controller and physical robot.
+</div>
 
 ---
 
-## Featured Robotics and Engineering Work
+## `01 / ABOUT`
 
-### 1. Morphobot — Hybrid Rover/Drone Concept
+I'm a **Mechatronics Engineer and Junior Robotics Engineer** interested in developing and integrating robotic systems. My focus spans ROS 2 software, embedded firmware, sensor integration, communication interfaces, and the engineering workflows that connect code to physical hardware.
 
-A robotics concept exploring a platform that can operate on the ground and transition to aerial movement for applications such as agriculture and search-and-rescue.
+I like to understand a system end-to-end: what the application is doing, how messages move through middleware and networks, how the embedded controller behaves, and how to diagnose the system when something fails.
 
-**Engineering themes**
-- ROS 2-based autonomy and robot-level integration
-- Embedded controller communication using STM32
-- Flight and ground locomotion integration
-- Simulation and perception/navigation technologies explored in the project
+- **Robotics:** ROS 2, robot integration, navigation and autonomy fundamentals
+- **Programming:** C, C++, Python
+- **Embedded:** STM32, ESP32, microcontroller peripherals
+- **Communication:** CAN, UART, SPI, I²C
+- **Linux & build tools:** Ubuntu 22.04, Git, CMake, colcon
+- **Visualization & interfaces:** RViz, Gazebo, React, TypeScript, Three.js
 
-**Technologies referenced in the project:** ROS 2, STM32, MAVROS, Gazebo, RTAB-Map, EKF.
+> My engineering principle: understand the system, test assumptions, document what works, and be precise about what is still in progress.
 
-- [Morphobot project repository](https://github.com/Yakhrevan/Morphobot) *(private repository; access may be restricted)*
-- [Morphobot website](https://github.com/Yakhrevan/Morphobot-Website)
+## `02 / FEATURED WORK`
 
-### 2. Autonomous Differential-Drive Robot
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A mobile-robot project focused on ROS 2 navigation concepts and integrating sensor data for mapping and movement.
+### [ROS 2 Robotics Engineering Notebook](https://github.com/Yakhrevan/ros2-robotics-engineering-notebook)
 
-**Engineering themes**
-- ROS 2 Humble and Nav2
-- SLAM Toolbox and A* path-planning concepts
-- Obstacle avoidance and costmaps
-- Wheel encoders, IMU, and LiDAR integration
+A long-term technical notebook covering ROS 2 from application APIs down through middleware, DDS/QoS, networking, real-time concepts, security, robot integration and autonomy.
 
-The project documentation describes the intended system and technologies; implementation status can vary by component.
+**Focus:** ROS 2 · Linux · DDS/RTPS · C++ · Python
 
-### 3. PickBot — Mecanum Mobile Robot with Robotic Arm
+</td>
+<td width="50%" valign="top">
 
-A mobile manipulation concept combining a multi-degree-of-freedom arm with a mecanum-wheel base.
+### [ROS Academy](https://github.com/Yakhrevan/ros-academy)
 
-**Engineering themes**
-- ESP32-based control
-- Mecanum-wheel locomotion
-- IR, temperature, and smoke sensors
-- App-based control over Bluetooth/Wi-Fi
+An interactive learning platform with structured lessons, quizzes, browser-based conceptual demonstrations and learning paths from Linux fundamentals to robotics systems.
 
-### 4. ROS Academy — Interactive Robotics Learning
+**Focus:** ROS 2 Humble · Learning UI · Robotics education
 
-An interactive learning platform designed to make robotics concepts easier to explore, from Linux fundamentals through ROS 2 communication and autonomy topics.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Includes**
-- Structured learning modules and quizzes
-- Browser-based Linux command and ROS 2 communication demonstrations
-- Explanations of the robotics middleware stack
-- Learning roadmaps for mobile robots, embedded integration, and drone telemetry
+### [Robotics Portfolio](https://github.com/Yakhrevan/Yakhrevan-Portfolio)
 
-The terminal and communication demonstrations are educational simulations, not a live ROS 2 runtime.
+The source for this portfolio website, including an interactive 3D robot companion, project pages and a dedicated Robot Lab experience.
 
-- [Explore ROS Academy](https://github.com/Yakhrevan/ros-academy)
+**Focus:** React · TypeScript · Vite · Three.js · React Three Fiber
 
-### 5. ROS 2 Robotics Engineering Notebook
+</td>
+<td width="50%" valign="top">
 
-A structured technical notebook for progressively studying the robotics stack, with emphasis on concepts, implementation, and reproducible learning.
+### [Morphobot Control Station](https://github.com/Yakhrevan/Morphobot-Website)
 
-**Topics include**
-- Linux and development environment fundamentals
-- ROS 2 nodes, communication patterns, and QoS
-- DDS/RTPS and middleware layers
-- Networking, real-time concepts, and security
-- TF2, URDF/Xacro, ros2_control, perception, and state estimation
-- SLAM, Nav2, simulation, multi-robot systems, and micro-ROS
+An Electron desktop-app project with a dark control-station interface for a hybrid rover/drone concept. The repository README documents its current structure and setup caveats.
 
-This is an evolving study resource; checklist items should be treated as learning progress, not as claims that every topic is complete.
+**Focus:** Electron · JavaScript · Robotics interface
 
-- [Open the engineering notebook](https://github.com/Yakhrevan/ros2-robotics-engineering-notebook)
+</td>
+</tr>
+</table>
 
-### 6. Interactive 3D Robotics Portfolio
+### Robotics concepts and hands-on interests
 
-A personal portfolio built to present robotics work through an interactive web experience and a custom robot companion.
+- **Morphobot:** hybrid rover/drone concept exploring ground and aerial mobility.
+- **Mobile robotics:** differential-drive motion, sensor integration, mapping and navigation concepts.
+- **PickBot:** mecanum-wheel mobile manipulation concept with ESP32-based control.
+- **Embedded integration:** communication between microcontrollers, sensors, actuators and higher-level robot software.
 
-**Technical highlights**
-- React 18, TypeScript, and Vite
-- Three.js, React Three Fiber, and Drei
-- Framer Motion for interface animation
-- Tailwind CSS styling
-- Procedural robot rendering and a GLTF/GLB model-loading path
-- Robot expression and animation-state controls
-- Project detail views and an interactive Robot Lab
+*Project descriptions distinguish concepts, learning work and implementation; not every listed subsystem should be interpreted as production-validated.*
 
-- [Open the live portfolio](https://yakhrevan.github.io/Yakhrevan-Portfolio/)
-- [Review the source code](https://github.com/Yakhrevan/Yakhrevan-Portfolio)
+## `03 / TECH STACK`
 
----
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2" />
+  <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+</p>
 
-## Technical Toolkit
-
-| Area | Tools and technologies |
+| Area | Current tools and topics |
 |---|---|
-| Robotics | ROS 2, ROS 2 Humble, Nav2, TF2, URDF/Xacro |
-| Programming | C, C++, Python, JavaScript, TypeScript |
-| Embedded | STM32, ESP32, microcontroller peripherals |
-| Communication | CAN, UART, SPI, I²C |
-| Sensors and autonomy | Encoders, IMU, LiDAR, sensor integration, SLAM concepts |
-| Simulation and visualization | Gazebo, RViz, Three.js |
-| Linux and build tools | Ubuntu, Git, CMake, colcon |
-| Web interfaces | React, Vite, Tailwind CSS, React Three Fiber |
+| Robotics software | ROS 2 Humble, nodes, topics, services, actions, TF2, URDF/Xacro |
+| Navigation & perception | Nav2, SLAM concepts, LiDAR, IMU, encoders, sensor integration |
+| Embedded engineering | STM32, ESP32, C/C++, PWM/ADC, CAN, UART, SPI, I²C |
+| Simulation & visualization | RViz, Gazebo, Three.js |
+| Engineering workflow | Ubuntu/Linux, Git, CMake, colcon, debugging and technical documentation |
+| Web-based tools | React, TypeScript, Vite, Tailwind CSS |
 
-This list reflects technologies used in projects or current study. It is not a proficiency ranking.
+The list reflects technologies used in projects or current study, not a formal proficiency ranking.
 
----
+## `04 / WHAT I'M LEARNING`
 
-## How I Approach Engineering
+- ROS 2 architecture, DDS/RMW, discovery and QoS behavior
+- Reliable C++ and Python workflows for robotics applications
+- Embedded communication, timing, sensor integration and motor-control fundamentals
+- Robot localization, perception, SLAM and navigation
+- Reproducible labs, clear documentation and verification of project behavior
 
-1. **Understand the full system.** Trace the path from application logic through middleware and communication to hardware.
-2. **Build in small steps.** Make changes that can be tested and understood.
-3. **Debug methodically.** Inspect logs, interfaces, timing, data flow, and assumptions rather than guessing.
-4. **Document the result.** Record setup steps, design decisions, limitations, and lessons learned.
-5. **Verify before claiming.** Distinguish a concept, a partial implementation, a simulation, and a validated physical system.
+## `05 / ENGINEERING APPROACH`
 
----
+1. **Trace the system:** follow data from application code through middleware and hardware.
+2. **Build incrementally:** make changes that are easy to test and review.
+3. **Debug from evidence:** use logs, measurements, interfaces and repeatable experiments.
+4. **Document limitations:** record prerequisites, expected behavior and known gaps.
+5. **Verify claims:** separate a concept, a simulation, a partial implementation and a tested physical result.
 
-## Current Learning Priorities
+## `06 / FIND ME ON GITHUB`
 
-- Deepen ROS 2 architecture and middleware knowledge
-- Strengthen C++ and Python for robotics applications
-- Improve embedded communication and hardware integration
-- Study robot navigation, perception, localization, and control
-- Make project documentation and demonstrations more reproducible
+- **[Visit my portfolio](https://yakhrevan.github.io/Yakhrevan-Portfolio/)**
+- **[Explore all public repositories](https://github.com/Yakhrevan?tab=repositories)**
+- **[Browse the robotics notebook](https://github.com/Yakhrevan/ros2-robotics-engineering-notebook)**
 
----
+<div align="center">
 
-## Connect
+*Think clearly. Build carefully. Test the system.*
 
-- **GitHub:** [@Yakhrevan](https://github.com/Yakhrevan)
-- **LinkedIn:** [linkedin.com/in/yakhrevans](https://www.linkedin.com/in/yakhrevans)
-- **Email:** [yakhrevan18@gmail.com](mailto:yakhrevan18@gmail.com)
-- **Portfolio:** [yakhrevan.github.io/Yakhrevan-Portfolio](https://yakhrevan.github.io/Yakhrevan-Portfolio/)
-
----
-
-<p align="center"><i>Always learning. Always building. Think. Build. Repeat.</i></p>
+</div>
